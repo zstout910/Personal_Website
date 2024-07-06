@@ -210,5 +210,22 @@ a:active {
     text-align: center;
 }
 
+.fa-js {
+    color:var(--bs-warning);
+}
 
+.fa-html5 {
+    color: #e34f36;
+}
 
+.fa-css3-alt {
+    color: var(--bs-primary);
+}
+
+.fa-node-js {
+    color: #6cc24a;
+}
+
+.fa-git-alt {
+    color: #f1502f;
+}
