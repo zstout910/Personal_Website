@@ -96,6 +96,14 @@ body {
         transform: translateX(-50%);
     }
 
+    .hero-image {
+        margin: 0 auto;
+        position: absolute;
+        width: 20vh;
+        left: 10%;
+        transform: translateY(90%)
+    }
+
 
 .image-section,
 .about-section,
@@ -126,6 +134,7 @@ body {
 .hero-image {
     flex: 1;
     text-align: right;
+    justify-content: center;
 }
 
 .hero-image img {
