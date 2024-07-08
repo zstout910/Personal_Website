@@ -43,7 +43,6 @@ body {
     border-radius: 10px;
 }
 
-
 .nav-item {
     align-items: center;
     justify-content: center;
@@ -100,17 +99,21 @@ body {
         margin: 0 auto;
         position: absolute;
         width: 20vh;
-        left: 10%;
-        transform: translateY(90%)
+        left: 5%;
+        transform: translateY(50%);
     }
 
-
-.image-section,
-.about-section,
-.hero-section,
-.container {
+    .image-section,
+    .about-section,
+    .hero-section,
+    .container {
         padding: 10px;
         margin: 10px 0;
+    }
+
+    .about-section {
+        height: auto;
+        text-align: center;
     }
 }
 
@@ -122,7 +125,7 @@ body {
     color: #fff;
     border: 4px solid var(--primary-color);
     border-radius: 10px;
-    height: 60vh;
+    
 }
 
 .hero-text {
@@ -177,7 +180,7 @@ a:active {
     color: #fff;
     border: 4px solid var(--bs-secondary);
     border-radius: 10px;
-    height: 60vh;
+    
 }
 
 .about-section:hover {
@@ -194,6 +197,7 @@ a:active {
     border: 4px solid var(--bs-secondary);
     border-radius: 10px;
 }
+
 .project-section {
     display: block;
     text-align: left;
@@ -211,7 +215,7 @@ a:active {
 }
 
 .fa-js {
-    color:var(--bs-warning);
+    color: var(--bs-warning);
 }
 
 .fa-html5 {
@@ -229,3 +233,5 @@ a:active {
 .fa-git-alt {
     color: #f1502f;
 }
+
+
