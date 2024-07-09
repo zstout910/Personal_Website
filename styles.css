@@ -96,11 +96,7 @@ body {
     }
 
     .hero-image {
-        margin: 0 auto;
-        position: absolute;
-        width: 20vh;
-        left: 5%;
-        transform: translateY(50%);
+        display: none;
     }
 
     .image-section,
@@ -111,10 +107,7 @@ body {
         margin: 10px 0;
     }
 
-    .about-section {
-        height: auto;
-        text-align: center;
-    }
+   
 }
 
 .hero-section {
@@ -125,8 +118,11 @@ body {
     color: #fff;
     border: 4px solid var(--primary-color);
     border-radius: 10px;
-    
+    background: var(--bs-gradient);
+
 }
+
+
 
 .hero-text {
     flex: 1;
@@ -180,7 +176,7 @@ a:active {
     color: #fff;
     border: 4px solid var(--bs-secondary);
     border-radius: 10px;
-    
+    background: var(--bs-gradient);
 }
 
 .about-section:hover {
@@ -188,6 +184,7 @@ a:active {
 }
 
 .image-section {
+    background: var(--bs-gradient);
     display: block;
     text-align: left;
     align-items: center;
@@ -199,6 +196,19 @@ a:active {
 }
 
 .project-section {
+    background: var(--bs-gradient);
+    display: block;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    border: 4px solid var(--bs-secondary);
+    border-radius: 10px;
+}
+
+.contact-section {
+    background: var(--bs-gradient);
     display: block;
     text-align: left;
     align-items: center;
@@ -233,5 +243,4 @@ a:active {
 .fa-git-alt {
     color: #f1502f;
 }
-
 
