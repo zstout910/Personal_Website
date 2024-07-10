@@ -99,6 +99,10 @@ body {
         display: none;
     }
 
+    .link-name {
+        display: none;
+    }
+
     .image-section,
     .about-section,
     .hero-section,
@@ -242,5 +246,26 @@ a:active {
 
 .fa-git-alt {
     color: #f1502f;
+}
+
+.fa-bootstrap {
+    color: #be2ed6;
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.project-link:hover {
+    color: var(--primary-color);
+}
+
+.project-link:active {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+.project-link:link {
+    text-decoration: none;
+    color: var(--primary-color)
 }
 
