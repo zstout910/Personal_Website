@@ -111,7 +111,18 @@ body {
         margin: 10px 0;
     }
 
+    .resume-img img {
+        width: 100%;
+        height: auto;
+    }
+
    
+}
+@media (max-width: 768px) {
+    .resume-img img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .hero-section {
@@ -269,3 +280,35 @@ a:active {
     color: var(--primary-color)
 }
 
+.resume-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.resume-link:hover {
+    color: var(--primary-color);
+}
+
+.resume-link:active {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+.resume-link:link {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+.resume-section {
+    background: var(--bs-gradient);
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: #fff;
+    border: 4px solid var(--bs-secondary);
+    border-radius: 10px;
+}
+.resume-img img {
+    border: 5px solid var(--primary-color);
+    border-radius: 10px;
+}
